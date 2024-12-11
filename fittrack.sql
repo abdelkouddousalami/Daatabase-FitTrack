@@ -155,3 +155,4 @@ CREATE VIEW ActiveMemberships AS
 SELECT *
 FROM FitnessManagement.memberships
 WHERE start_date <= CURDATE();
+
